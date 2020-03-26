@@ -5,7 +5,6 @@ public class ImplementStrInStr {
     }
 
     public int strStr(String haystack, String needle) {
-        StringBuilder str = new StringBuilder(haystack);
-        return str.indexOf(needle);
+        return new StringBuilder(haystack).indexOf(needle);
     }
 }
